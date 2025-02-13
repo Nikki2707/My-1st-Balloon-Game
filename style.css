@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: url('Symbol 3 copy.png') no-repeat center center/cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#balloon {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    background-image: url(/Symbol\ 100001.png), url(Symbol\ 100002.png)
+    , url(Symbol\ 100003.png), url(Symbol\ 100004.png), url(Symbol\ 100005.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pump {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    cursor: pointer;
+}
